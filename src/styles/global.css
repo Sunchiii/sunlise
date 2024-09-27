@@ -5,7 +5,7 @@
  */
 
 :root {
-	--accent: #2337ff;
+	--accent: #f0c67d;
 	--accent-dark: #000d8a;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
@@ -46,7 +46,6 @@ main {
 	width: 960px;
 	max-width: calc(100% - 2em);
 	margin: auto;
-	padding: 3em 1em;
 }
 h1,
 h2,
@@ -54,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0 0 0.5rem 0;
+	margin: 0 1rem 0.5rem 0;
 	color: rgb(var(--black));
 	line-height: 1.2;
 }
@@ -118,10 +117,12 @@ pre > code {
 }
 blockquote {
 	border-left: 4px solid var(--accent);
-	padding: 0 0 0 20px;
+	padding: 5px 5px 0 20px;
 	margin: 0px;
 	/* font-size: 1.333em; */
 	font-size: 14px;
+	background-color: #ced5d9;
+	border-radius: 4px;
 }
 hr {
 	border: none;

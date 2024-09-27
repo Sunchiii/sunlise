@@ -30,10 +30,8 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				object-fit: cover;
 			}
 			.prose {
-				width: 720px;
 				max-width: calc(100% - 2em);
 				margin: auto;
-				padding: 1em;
 				color: rgb(var(--gray-dark));
 			}
 			.title {
@@ -57,12 +55,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 
 	<body>
 		<Header />
-		<main>
+		<main class="py-[3em] px-[em]">
 			<article>
 				<div class="hero-image flex justify-center">
 					{heroImage && <img class="sm:w-[1020px] sm:h-[510px] w-[350px] h-[190px]" src={heroImage} alt="" />}
 				</div>
-				<div class="prose">
+				<div class="prose w-[720px]">
 					<div class="title">
 						<div class="date">
 							<FormattedDate date={pubDate} />
