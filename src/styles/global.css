@@ -15,6 +15,9 @@
 	--box-shadow: 0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
 		0 16px 32px rgba(var(--gray), 33%);
 
+	--font-mobile: 16px;
+	--font-desktop: 18px;
+
 	--table-text: black;
 	--table-head: #5b1c9f;
 	--table-head-text: white;
@@ -57,7 +60,7 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 18px;
+	font-size: var(--font-desktop);
 	line-height: 1.7;
 }
 
@@ -121,11 +124,11 @@ p {
 
 textarea {
 	width: 100%;
-	font-size: 18px;
+	font-size: var(--font-desktop);
 }
 
 input {
-	font-size: 18px;
+	font-size: var(--font-desktop);
 }
 
 /* table {
@@ -146,7 +149,7 @@ table {
   table thead th {
 	background-color: #fafafa;
 	font-weight: 600;
-	padding: 10px;
+	padding: 5px;
 	text-align: left;
 	border-bottom: 1px solid #ddd;
 	color: #333;
@@ -162,9 +165,11 @@ table {
   }
   
   table tbody td {
-	padding: 10px;
+	padding: 5px;
+	padding-left: 5px;
 	text-align: left;
 	color: #333;
+	
   }
   
   /* Hover effect */
@@ -205,7 +210,7 @@ blockquote {
 	padding: 5px 5px 0 20px;
 	margin: 0px;
 	/* font-size: 1.333em; */
-	font-size: 18px;
+	font-size: var(--font-desktop);
 	background-color: #ced5d9;
 	border-radius: 4px;
 }
@@ -217,8 +222,10 @@ hr {
 
 @media (max-width: 720px) {
 	body {
-		font-size: 18px;
+		font-size: var(--font-mobile);
 	}
+
+	
 
 	/* main {
 		padding: 1em;
