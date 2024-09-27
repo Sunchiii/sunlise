@@ -105,7 +105,7 @@ const posts = (await getCollection("blog")).sort(
 					{
 						posts.map((post: any) => (
 							<li>
-								<a href={`/${post.slug}/`}>
+								<a class="text-center" href={`/${post.slug}/`}>
 									<div>
 										<h4 class="title">{post.data.title}</h4>
 										<h5 class="text-sm">

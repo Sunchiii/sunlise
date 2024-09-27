@@ -43,9 +43,9 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
+	width: 960px;
 	max-width: calc(100% - 2em);
-	margin: auto;
+	margin: 0;
 	padding: 3em 1em;
 }
 h1,
@@ -131,9 +131,9 @@ hr {
 	body {
 		font-size: 12px;
 	}
-	main {
+	/* main {
 		padding: 1em;
-	}
+	} */
 }
 
 .sr-only {
