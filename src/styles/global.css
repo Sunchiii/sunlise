@@ -121,7 +121,7 @@ blockquote {
 	padding: 0 0 0 20px;
 	margin: 0px;
 	/* font-size: 1.333em; */
-	font-size: 12px;
+	font-size: 14px;
 }
 hr {
 	border: none;
@@ -129,7 +129,7 @@ hr {
 }
 @media (max-width: 720px) {
 	body {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	/* main {
 		padding: 1em;
